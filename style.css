@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  min-height: auto;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: start;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-item {
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  cursor: pointer;
+}
+
+.user-item strong {
+  display: block;
+  color: #2f4879;
+  font-size: 16px;
+}
+
+.user-item span {
+  color: gray;
+  font-size: 14px;
+}
